@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--<androidx.constraintlayout.widget.ConstraintLayout -->
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -9,20 +9,15 @@
 
     <Button
         android:id="@+id/button1"
+        android:layout_margin="@dimen/margin_50"
+        android:layout_marginTop="@dimen/margin_100"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/margin_50"
-        android:layout_marginTop="@dimen/margin_50"
-        android:layout_marginEnd="@dimen/margin_50"
-        android:layout_marginBottom="@dimen/margin_50"
-        android:text="Update title in 2 sec" />
-<!--        tools:layout_editor_absoluteX="260dp"-->
-<!--        tools:layout_editor_absoluteY="25dp" -->
-
+        android:text="Update title"
+        />
 
     <TextView
         android:id="@+id/text_home"
-        android:layout_below="@+id/button1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
@@ -35,4 +30,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
